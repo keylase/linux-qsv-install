@@ -21,7 +21,10 @@ tar xvzf SDK2016Production16.4.4.tar.gz && cd SDK2016Production16.4.4/CentOS
 ```
 tar xvzf install_scripts_centos_16.4.4-47109.tar.gz && ./install_sdk_UMD_CentOS.sh
 ```
-5.
+5. install rpm:
+```
+rpm -Uvh --force drm-utils-2.4.56-47109.el7.x86_64.rpm libdrm-2.4.56-47109.el7.x86_64.rpm intel-linux-media-16.4.4-47109.el7.x86_64.rpm libva-1.67.0.pre1-47109.el7.x86_64.rpm intel-opencl-1.2-16.4-47109.el7.x86_64.rpm libva-utils-1.67.0.pre1-47109.el7.x86_64.rpm kernel-3.10.0-229.1.2.el7.src.rpm
+```
 
 #HINT multicast routing for Centos7:
 ```
