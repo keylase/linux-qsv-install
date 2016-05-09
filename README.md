@@ -22,3 +22,9 @@ tar xvzf SDK2016Production16.4.4.tar.gz && cd SDK2016Production16.4.4/CentOS
 tar xvzf install_scripts_centos_16.4.4-47109.tar.gz && ./install_sdk_UMD_CentOS.sh
 ```
 5.
+
+#HINT multicast routing for Centos7:
+```
+firewall-cmd --permanent --direct --add-rule ipv4 filter INPUT 0 -m udp -p udp -m pkttype --pkt-type multicast -j ACCEPT
+firewall-cmd --reload
+```
